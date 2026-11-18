@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="si" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Frontend Security Headers & Content-Security-Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com data:; img-src 'self' data: https:; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com data:; media-src 'self' data: blob:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Performance: Google Fonts & CDN Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+  <title>50 වසරක අභිමානය (1977-2027) | ස්වර්ණ ජයන්ති මහෝත්සවය | ශ්‍රී සම්බෝධි දහම් පාසල</title>
+  <meta name="description" content="ශ්‍රී සම්බෝධි දහම් පාසලේ 50 වැනි ස්වර්ණ ජයන්ති මහෝත්සවය (1977-2027). පනස් වසරක අභිමානය. දැහැමින් ඉදිරියට.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            buddhist: {
+              maroon: '#7E1D1D',
+              maroonDark: '#500D0D',
+              maroonLight: '#991B1B',
+              gold: '#D97706',
+              goldLight: '#F59E0B',
+              goldGlow: '#FEF08A',
+              saffron: '#EA580C',
+              ivory: '#FAF7EE',
+              sand: '#F4EDE0',
+              blue: '#1E3A8A',
+              darkBg: '#140A0A',
+              darkCard: '#221111'
+            }
+          },
+          fontFamily: {
+            sinhala: ['Noto Serif Sinhala', 'Abhaya Libre', 'serif'],
+            sinhalaSans: ['Noto Sans Sinhala', 'Plus Jakarta Sans', 'sans-serif'],
+            display: ['Cinzel', 'Abhaya Libre', 'serif'],
+            body: ['Plus Jakarta Sans', 'Noto Sans Sinhala', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>(function(){var l=localStorage.getItem('sambodhi_lang')||'si';document.documentElement.setAttribute('lang',l);})();</script>
+</head>
+<body class="bg-[#FAF7EE] dark:bg-[#120808] text-stone-800 dark:text-stone-100 antialiased font-sinhalaSans transition-colors duration-300">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress-bar"></div>
+
+  <!-- =====================================================================
+       TOP SUB-BAR (Utility, Hotline, Buddhist Flag Accents)
+       ===================================================================== -->
+  <div class="top-sub-bar hidden xl:block bg-stone-900 text-stone-300 text-xs py-1.5 px-4 border-b border-amber-900/40 relative z-30">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-3">
+      <div class="flex items-center gap-4 flex-wrap text-[11px] sm:text-xs">
+        <span class="flex items-center gap-1.5 text-amber-300">
+          <i class="fa-solid fa-dharmachakra animate-spin-slow"></i>
+          <span class="font-semibold" data-lang-si="බෞද්ධ කටයුතු දෙපාර්තමේන්තුවේ ලියාපදිංචි අංකය: DBA/DHM/1977/042" data-lang-en="Dept. of Buddhist Affairs Reg. No: DBA/DHM/1977/042">බෞද්ධ කටයුතු දෙපාර්තමේන්තුවේ ලියාපදිංචි අංකය: DBA/DHM/1977/042</span>
+        </span>
+        <span class="hidden md:inline text-stone-600">|</span>
+        <span class="hidden md:flex items-center gap-1.5">
+          <i class="fa-solid fa-phone text-amber-400"></i> 034 222 3823
+        </span>
+        <span class="hidden lg:inline text-stone-600">|</span>
+        <span class="hidden lg:flex items-center gap-1.5">
+          <i class="fa-regular fa-clock text-amber-400"></i> <span data-lang-si="සෑම ඉරිදා දිනකම පෙ.ව. 7.30 - ප.ව. 12.30" data-lang-en="Every Sunday 7:30 AM - 12:30 PM">සෑම ඉරිදා දිනකම පෙ.ව. 7.30 - ප.ව. 12.30</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-3 ml-auto text-xs">
+        <!-- Temple Bell Sound Synthesizer Button -->
+        <button type="button" class="play-bell-chime-btn flex items-center gap-1.5 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 px-2.5 py-1 rounded-full border border-amber-500/40 transition-all text-[11px] cursor-pointer" title="ශාන්ත සීනු නාදය ශ්‍රවණය කරන්න / Listen to Peace Chime">
+          <i class="fa-solid fa-bell text-amber-400 animate-bounce"></i>
+          <span data-lang-si="ශාන්ත නාදය" data-lang-en="Temple Chime">ශාන්ත නාදය</span>
+        </button>
+
+        <!-- Modern Professional Theme Switch Toggle -->
+        <button type="button" class="theme-toggle-btn theme-switch-btn" title="දිවා / රාත්‍රී මාදිලිය මාරු කරන්න | Switch Theme" aria-label="Toggle Dark / Light Theme" role="switch">
+          <span class="theme-switch-track">
+            <span class="theme-switch-icon theme-switch-icon-sun"><i class="fa-solid fa-sun"></i></span>
+            <span class="theme-switch-icon theme-switch-icon-moon"><i class="fa-solid fa-moon"></i></span>
+            <span class="theme-switch-thumb">
+              <i class="fa-solid fa-sun thumb-icon-sun"></i>
+              <i class="fa-solid fa-moon thumb-icon-moon"></i>
+            </span>
+          </span>
+        </button>
+
+        <!-- Modern Professional Language Segmented Switch -->
+        <button type="button" class="lang-toggle-btn lang-segmented-switch" title="Switch Language / භාෂාව මාරු කරන්න" aria-label="Switch Language">
+          <span class="text-amber-400 text-xs flex items-center pl-1 pr-1.5">
+            <i class="fa-solid fa-globe"></i>
+          </span>
+          <span class="lang-pill-track">
+            <span class="lang-seg-btn lang-seg-si active">සිංහල</span>
+            <span class="lang-seg-btn lang-seg-en">EN</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Six-Colored Buddhist Flag Strip -->
+  <div class="buddhist-flag-bar">
+    <div class="b-blue"></div>
+    <div class="b-yellow"></div>
+    <div class="b-red"></div>
+    <div class="b-white"></div>
+    <div class="b-orange"></div>
+  </div>
+
+  <!-- =====================================================================
+       MAIN STICKY HEADER
+       - Centered Logo & School Identity (Matching 2nd Photo)
+       - Balanced Navigation Structure
+       ===================================================================== -->
+  <header id="main-header" class="sticky top-0 z-50 bg-[#FAF7EE]/95 dark:bg-[#1A0B0B]/95 backdrop-blur-md border-b border-stone-200/80 dark:border-amber-900/30 py-1.5 sm:py-2 transition-all duration-300 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between gap-4">
+        
+        <!-- School Brand Identity with Official Logo (Left Aligned & Balanced) -->
+        <a href="/" class="flex items-center gap-2.5 sm:gap-3.5 md:gap-4 group flex-shrink-0">
+          <div class="relative w-11 h-11 sm:w-14 sm:h-14 md:w-16 md:h-16 flex-shrink-0">
+            <img src="assets/images/sambodhi-logo.jpg" alt="ශ්‍රී සම්බෝධි දහම් පාසල නිල ලාංඡනය" class="w-full h-full object-contain rounded-full shadow-md border-2 border-red-800/20 dark:border-amber-400/40 group-hover:scale-105 transition-transform duration-300" loading="eager" decoding="async">
+            <span class="absolute -bottom-1 -right-1 bg-amber-500 text-stone-900 text-[8px] sm:text-[9px] font-extrabold px-1 sm:px-1.5 py-0.2 rounded-full shadow border border-white" data-lang-si="50Y" data-lang-en="50Y">50Y</span>
+          </div>
+          <div class="flex flex-col justify-center leading-tight whitespace-nowrap">
+            <span class="text-sm sm:text-base md:text-lg xl:text-xl font-bold font-sinhala leading-snug text-red-900 dark:text-amber-400 group-hover:text-red-700 transition-colors" data-lang-si="ශ්‍රී සම්බෝධි" data-lang-en="Sri Sambodhi">
+              ශ්‍රී සම්බෝධි
+            </span>
+            <span class="text-sm sm:text-base md:text-lg xl:text-xl font-bold font-sinhala leading-snug text-red-900 dark:text-amber-400 group-hover:text-red-700 transition-colors" data-lang-si="දහම් පාසල" data-lang-en="Dhamma School">
+              දහම් පාසල
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Bar (Strictly hidden on mobile & tablet) -->
+        <nav class="hidden xl:flex items-center gap-2 xl:gap-3.5 2xl:gap-5 font-semibold text-[13px] xl:text-[14px] text-stone-800 dark:text-stone-200 whitespace-nowrap flex-shrink-0">
+          <a href="/about" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="අප ගැන" data-lang-en="About Us">
+            අප ගැන
+          </a>
+          <a href="/academics" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="අධ්‍යයන අංශ" data-lang-en="Academics">
+            අධ්‍යයන අංශ
+          </a>
+          <a href="/golden-jubilee" class="flex items-center gap-1.5 text-amber-700 dark:text-amber-300 font-semibold hover:text-red-800 transition-colors py-1.5 whitespace-nowrap">
+            <i class="fa-solid fa-crown text-amber-500 text-xs"></i>
+            <span data-lang-si="50 වසරක අභිමානය" data-lang-en="50th Anniversary">50 වසරක අභිමානය</span>
+          </a>
+          <a href="/activities" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="ශිෂ්‍ය සමිති" data-lang-en="Activities">
+            ශිෂ්‍ය සමිති
+          </a>
+          <a href="/gallery" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="ඡායාරූප" data-lang-en="Gallery">
+            ඡායාරූප
+          </a>
+          <a href="/downloads" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="බාගත කිරීම්" data-lang-en="Downloads">
+            බාගත කිරීම්
+          </a>
+          <a href="/contact" class="hover:text-red-800 dark:hover:text-amber-400 transition-colors py-1.5 whitespace-nowrap" data-lang-si="සම්බන්ධ වන්න" data-lang-en="Contact">
+            සම්බන්ධ වන්න
+          </a>
+        </nav>
+
+        <!-- Right Side: Header CTA & Mobile Menu Hamburger Button -->
+        <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+          <a href="/donations" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-red-800 to-amber-700 hover:from-red-900 hover:to-amber-800 text-white font-semibold text-xs xl:text-sm px-3.5 py-2 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 border border-amber-400/30 whitespace-nowrap">
+            <i class="fa-solid fa-hand-holding-heart text-amber-300"></i>
+            <span data-lang-si="ආධාර හා පරිත්‍යාග" data-lang-en="Donations">ආධාර හා පරිත්‍යාග</span>
+          </a>
+
+          <!-- Mobile Menu Hamburger Button (Positioned on the Right Side) -->
+          <button id="mobile-drawer-toggle" type="button" class="xl:hidden p-2 text-stone-800 dark:text-stone-200 hover:text-red-800 dark:hover:text-amber-400 transition-colors focus:outline-none cursor-pointer" aria-label="Open menu">
+            <i class="fa-solid fa-bars text-xl sm:text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div></header>
+
+  <!-- =====================================================================
+       MOBILE NAVIGATION DRAWER
+       ===================================================================== -->
+  <div id="mobile-drawer-backdrop" class="fixed inset-0 bg-stone-950/70 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobile-drawer" class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-[#FAF7EE] dark:bg-[#1A0B0B] z-50 shadow-2xl p-6 overflow-y-auto transform translate-x-full transition-transform duration-300 flex flex-col justify-between border-l border-amber-900/30">
+    <div>
+      <div class="flex items-center justify-between pb-4 border-b border-stone-200 dark:border-stone-800">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
+          <img src="assets/images/sambodhi-logo.jpg" alt="Logo" class="w-10 h-10 rounded-full border border-red-800 flex-shrink-0" loading="lazy" decoding="async">
+          <div class="leading-tight min-w-0">
+            <span class="block font-bold text-xs sm:text-sm text-red-900 dark:text-amber-400 font-sinhala leading-snug truncate" data-lang-si="ශ්‍රී සම්බෝධි දහම් පාසල" data-lang-en="Sri Sambodhi Dhamma School">ශ්‍රී සම්බෝධි දහම් පාසල</span>
+            <span class="block text-[10px] text-stone-500 dark:text-stone-400 truncate tracking-wide" data-lang-si="1977 - 2027 (පනස් වසරක අභිමානය)" data-lang-en="1977 - 2027 • 50th Golden Jubilee">1977 - 2027 (පනස් වසරක අභිමානය)</span>
+          </div>
+        </div>
+        <button id="mobile-drawer-close" class="p-2 text-stone-500 hover:text-stone-900 dark:hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-2 mt-5 text-sm font-medium">
+        <a href="/" class="p-2.5 rounded-lg bg-red-100 dark:bg-red-950/40 text-red-900 dark:text-amber-300 font-bold">
+          <i class="fa-solid fa-house mr-2 text-red-700"></i> මුල් පිටුව
+        </a>
+        <a href="/about" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-circle-info mr-2 text-amber-600"></i> අප ගැන හා ඉතිහාසය
+        </a>
+        <a href="/academics" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-graduation-cap mr-2 text-amber-600"></i> අධ්‍යයන අංශ හා ශ්‍රේණි
+        </a>
+        <a href="/golden-jubilee" class="p-2.5 rounded-lg bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold">
+          <i class="fa-solid fa-crown mr-2 text-amber-500"></i> 50 වසරක අභිමානය
+        </a>
+        <a href="/activities" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-users mr-2 text-amber-600"></i> ශිෂ්‍ය සමිති හා සේවා
+        </a>
+        <a href="/gallery" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-images mr-2 text-amber-600"></i> ඡායාරූප එකතුව
+        </a>
+        <a href="/downloads" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-file-pdf mr-2 text-amber-600"></i> බාගත කිරීම්
+        </a>
+        <a href="/donations" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200" data-lang-si="ආධාර හා පරිත්‍යාග" data-lang-en="Donations">
+          <i class="fa-solid fa-hand-holding-heart w-6 text-amber-600"></i>
+          <span data-lang-si="ආධාර හා පරිත්‍යාග" data-lang-en="Donations">ආධාර හා පරිත්‍යාග</span>
+        </a>
+        <a href="/contact" class="p-2.5 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200">
+          <i class="fa-solid fa-location-dot mr-2 text-amber-600"></i> සම්බන්ධ වන්න
+        </a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-stone-200 dark:border-stone-800 flex flex-col gap-3">
+      <button class="play-bell-chime-btn w-full py-2 bg-amber-600/15 hover:bg-amber-600/25 text-amber-700 dark:text-amber-300 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 border border-amber-600/25 dark:border-amber-500/25 transition-all shadow-sm active:scale-[0.99]">
+        <i class="fa-solid fa-bell"></i> ශාන්ත සීනු නාදය
+      </button>
+      <!-- Mobile Theme Toggle Button -->
+      <button type="button" class="theme-toggle-btn w-full flex items-center justify-between py-2 px-3.5 bg-stone-100 hover:bg-stone-200/80 dark:bg-stone-900/90 dark:hover:bg-stone-850 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 border border-stone-200/80 dark:border-stone-800 transition-all cursor-pointer shadow-sm active:scale-[0.99]" title="Switch Theme / දිවා/රාත්‍රී මාදිලිය මාරු කරන්න" role="switch">
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-circle-half-stroke text-amber-600 dark:text-amber-400 text-sm"></i>
+          <span data-lang-si="රාත්‍රී / දිවා මාදිලිය" data-lang-en="Dark / Light Theme">රාත්‍රී / දිවා මාදිලිය</span>
+        </span>
+        <span class="theme-switch-track pointer-events-none">
+          <span class="theme-switch-icon theme-switch-icon-sun"><i class="fa-solid fa-sun"></i></span>
+          <span class="theme-switch-icon theme-switch-icon-moon"><i class="fa-solid fa-moon"></i></span>
+          <span class="theme-switch-thumb">
+            <i class="fa-solid fa-sun thumb-icon-sun"></i>
+            <i class="fa-solid fa-moon thumb-icon-moon"></i>
+          </span>
+        </span>
+      </button>
+      <!-- Mobile Language Toggle Button -->
+      <button type="button" id="mobile-drawer-lang-btn" class="lang-toggle-btn w-full flex items-center justify-between py-2 px-3.5 bg-stone-100 hover:bg-stone-200/80 dark:bg-stone-900/90 dark:hover:bg-stone-850 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 border border-stone-200/80 dark:border-stone-800 transition-all cursor-pointer shadow-sm active:scale-[0.99]" title="Switch Language / භාෂාව මාරු කරන්න">
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-globe text-amber-600 dark:text-amber-400 text-sm"></i>
+          <span data-lang-si="භාෂාව තෝරන්න" data-lang-en="Select Language">භාෂාව තෝරන්න</span>
+        </span>
+        <span class="lang-pill-track pointer-events-none">
+          <span class="lang-seg-btn lang-seg-si active">සිංහල</span>
+          <span class="lang-seg-btn lang-seg-en">English</span>
+        </span>
+      </button>
+      <div class="text-[11px] text-stone-500 text-center" data-lang-si="ශ්‍රී සම්බෝධි දහම් පාසල • 1977 - 2027" data-lang-en="Sri Sambodhi Dhamma School • 1977 - 2027">
+        ශ්‍රී සම්බෝධි දහම් පාසල • 1977 - 2027
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Semantic Landmark -->
+  <main id="main-content" class="flex-grow">
+
+  <section class="py-10 md:py-10 sm:py-14 md:py-20 bg-gradient-to-r from-[#2B0E0E] via-stone-900 to-[#351505] text-white relative overflow-hidden">
+    <div class="absolute -right-16 -bottom-16 w-80 h-80 opacity-10 pointer-events-none">
+      <i class="fa-solid fa-crown text-[300px] text-amber-400"></i>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <div class="inline-flex items-center gap-2 jubilee-shimmer-badge text-stone-950 font-extrabold text-xs sm:text-sm px-5 py-2 rounded-full mb-6 shadow-xl">
+        <i class="fa-solid fa-crown"></i>
+        <span data-lang-si="1977 - 2027 • පනස් වසරක අභිමානය • GOLDEN JUBILEE" data-lang-en="1977 - 2027 • Fifty Years of Pride • GOLDEN JUBILEE">1977 - 2027 • පනස් වසරක අභිමානය • GOLDEN JUBILEE</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-bold font-sinhala leading-tight text-amber-300 mb-3 drop-shadow-md" data-lang-si="ස්වර්ණ ජයන්ති මහෝත්සවය" data-lang-en="Grand Golden Jubilee Celebration">
+        ස්වර්ණ ජයන්ති මහෝත්සවය
+      </h1>
+
+      <div class="text-2xl sm:text-4xl font-sinhala text-white italic mb-6">
+        “දැහැමින් ඉදිරියට”
+      </div>
+
+      <p class="text-stone-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mb-8" data-lang-si="1977 වසරේ සිට 2027 දක්වා නොකඩවා අඩසියවසක් පුරා සම්බුදු සසුනටත් දැයටත් අමිල මෙහෙවරක් ඉටු කළ ශ්‍රී සම්බෝධි දහම් පාසලේ ස්වර්ණ ජයන්ති මහා සැමරුම." data-lang-en="The grand Golden Jubilee commemoration of Sri Sambodhi Dhamma School, rendering priceless service to the Sambuddha Sasana and nation from 1977 to 2027.">
+        1977 වසරේ සිට 2027 දක්වා නොකඩවා අඩසියවසක් පුරා සම්බුදු සසුනටත් දැයටත් අමිල මෙහෙවරක් ඉටු කළ ශ්‍රී සම්බෝධි දහම් පාසලේ ස්වර්ණ ජයන්ති මහා සැමරුම.
+      </p>
+
+      <!-- Countdown Bar -->
+      <div id="jubilee-countdown-card" class="glass-card-dark rounded-2xl p-5 max-w-xl mx-auto border border-amber-500/40">
+        <div class="text-xs uppercase tracking-widest text-amber-300 font-bold mb-3 flex items-center justify-center gap-2">
+          <i class="fa-solid fa-hourglass-half"></i>
+          <span data-lang-si="ස්වර්ණ ජයන්ති මහා උත්සව දිනයට තවත්" data-lang-en="Countdown to Grand Golden Jubilee Festival">ස්වර්ණ ජයන්ති මහා උත්සව දිනයට තවත්</span>
+        </div>
+        <div id="jubilee-countdown" class="grid grid-cols-4 gap-3 text-center">
+          <div class="bg-black/60 rounded-xl p-2.5 border border-amber-900/50">
+            <span id="cd-days" class="block text-2xl sm:text-3xl font-bold font-mono text-amber-400">00</span>
+            <span class="text-[10px] text-stone-400" data-lang-si="දින" data-lang-en="Days">දින</span>
+          </div>
+          <div class="bg-black/60 rounded-xl p-2.5 border border-amber-900/50">
+            <span id="cd-hours" class="block text-2xl sm:text-3xl font-bold font-mono text-amber-400">00</span>
+            <span class="text-[10px] text-stone-400" data-lang-si="පැය" data-lang-en="Hours">පැය</span>
+          </div>
+          <div class="bg-black/60 rounded-xl p-2.5 border border-amber-900/50">
+            <span id="cd-mins" class="block text-2xl sm:text-3xl font-bold font-mono text-amber-400">00</span>
+            <span class="text-[10px] text-stone-400" data-lang-si="මිනිත්තු" data-lang-en="Mins">මිනිත්තු</span>
+          </div>
+          <div class="bg-black/60 rounded-xl p-2.5 border border-amber-900/50">
+            <span id="cd-secs" class="block text-2xl sm:text-3xl font-bold font-mono text-amber-400">00</span>
+            <span class="text-[10px] text-stone-400" data-lang-si="තත්පර" data-lang-en="Secs">තත්පර</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 Decades Timeline (1977 - 2027) -->
+  <section class="py-8 md:py-16 bg-[#FAF7EE] dark:bg-[#120808]">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14 reveal-on-scroll">
+        <span class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-widest bg-amber-100 dark:bg-amber-950/40 px-3.5 py-1.5 rounded-full" data-lang-si="දශක 5 ක කාලරාමුව" data-lang-en="5 Decades Historical Timeline">
+          දශක 5 ක කාලරාමුව
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-sinhala text-stone-900 dark:text-white mt-3" data-lang-si="පනස් වසරක අභිමානවත් ගමන් මඟ" data-lang-en="Fifty Years of Proud Historic Journey">
+          පනස් වසරක අභිමානවත් ගමන් මඟ
+        </h2>
+      </div>
+
+      <div class="relative border-l-2 border-amber-400/50 dark:border-amber-900/60 ml-4 sm:ml-32 space-y-10 reveal-on-scroll">
+        
+        <!-- Decade 1 -->
+        <div class="relative pl-6 sm:pl-8">
+          <div class="absolute -left-3 top-1.5 w-6 h-6 rounded-full bg-amber-500 border-4 border-white dark:border-stone-900 flex items-center justify-center"></div>
+          <span class="sm:absolute sm:-left-28 sm:top-1 font-mono font-bold text-sm text-red-900 dark:text-amber-400 block sm:inline">1977 - 1987</span>
+          <div class="bg-white dark:bg-stone-900 p-5 rounded-2xl border border-stone-200 dark:border-amber-900/30 shadow-md">
+            <h4 class="text-lg font-bold font-sinhala text-red-950 dark:text-amber-300" data-lang-si="1977: ආරම්භය හා ප්‍රථම පියවර" data-lang-en="1977: Inception & First Steps">1977: ආරම්භය හා ප්‍රථම පියවර</h4>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-2 leading-relaxed" data-lang-si="ආනන්ද අමරසිංහ භික්ෂු විවේකාරාමයේ ධර්ම ශාලාව කේන්ද්‍ර කරගනිමින් සිසුන් 40 දෙනෙකු සහ ගුරුවරුන් 3 දෙනෙකුගේ සහභාගීත්වයෙන් දහම් පාසල ඇරඹීම. පළමු ධර්ම ප්‍රචාරක වැඩසටහන් දියත් කිරීම." data-lang-en="Commencing the Dhamma school centering the Dhamma hall of the Ananda Amarasinghe Bhikshu Vivekaramaya with 40 students and 3 teachers. Launching the first Dhamma propagation programs.">
+              ආනන්ද අමරසිංහ භික්ෂු විවේකාරාමයේ ධර්ම ශාලාව කේන්ද්‍ර කරගනිමින් සිසුන් 40 දෙනෙකු සහ ගුරුවරුන් 3 දෙනෙකුගේ සහභාගීත්වයෙන් දහම් පාසල ඇරඹීම. පළමු ධර්ම ප්‍රචාරක වැඩසටහන් දියත් කිරීම.
+            </p>
+          </div>
+        </div>
+
+        <!-- Decade 2 -->
+        <div class="relative pl-6 sm:pl-8">
+          <div class="absolute -left-3 top-1.5 w-6 h-6 rounded-full bg-amber-500 border-4 border-white dark:border-stone-900 flex items-center justify-center"></div>
+          <span class="sm:absolute sm:-left-28 sm:top-1 font-mono font-bold text-sm text-red-900 dark:text-amber-400 block sm:inline">1987 - 1997</span>
+          <div class="bg-white dark:bg-stone-900 p-5 rounded-2xl border border-stone-200 dark:border-amber-900/30 shadow-md">
+            <h4 class="text-lg font-bold font-sinhala text-red-950 dark:text-amber-300" data-lang-si="1987: ධර්මාචාර්ය අංශය පිහිටුවීම" data-lang-en="1987: Dharmacharya Section Establishment">1987: ධර්මාචාර්ය අංශය පිහිටුවීම</h4>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-2 leading-relaxed" data-lang-si="උසස් අධ්‍යාපන අවස්ථා පුළුල් කරමින් ධර්මාචාර්ය විභාග අංශය ආරම්භ කිරීම. ප්‍රථම වරට දිස්ත්‍රික් මට්ටමේ දහම් පාසල් තරඟාවලියෙන් ප්‍රථම ස්ථාන දිනා ගැනීම." data-lang-en="Establishing the Dharmacharya examination wing and securing first places in district-level Dhamma school competitions for the first time.">
+              උසස් අධ්‍යාපන අවස්ථා පුළුල් කරමින් ධර්මාචාර්ය විභාග අංශය ආරම්භ කිරීම. ප්‍රථම වරට දිස්ත්‍රික් මට්ටමේ දහම් පාසල් තරඟාවලියෙන් ප්‍රථම ස්ථාන දිනා ගැනීම.
+            </p>
+          </div>
+        </div>
+
+        <!-- Decade 3 -->
+        <div class="relative pl-6 sm:pl-8">
+          <div class="absolute -left-3 top-1.5 w-6 h-6 rounded-full bg-amber-500 border-4 border-white dark:border-stone-900 flex items-center justify-center"></div>
+          <span class="sm:absolute sm:-left-28 sm:top-1 font-mono font-bold text-sm text-red-900 dark:text-amber-400 block sm:inline">1997 - 2007</span>
+          <div class="bg-white dark:bg-stone-900 p-5 rounded-2xl border border-stone-200 dark:border-amber-900/30 shadow-md">
+            <h4 class="text-lg font-bold font-sinhala text-red-950 dark:text-amber-300" data-lang-si="1997: ශ්‍රී සම්බෝධි පුස්තකාලය හා සම්පත් මධ්‍යස්ථානය" data-lang-en="1997: Buddhist Library & Resource Center">1997: ශ්‍රී සම්බෝධි පුස්තකාලය හා සම්පත් මධ්‍යස්ථානය</h4>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-2 leading-relaxed" data-lang-si="සිසුන් 500 ඉක්මවීම නිමිත්තෙන් ශ්‍රී සම්බෝධි බෞද්ධ පුස්තකාලය ස්ථාපනය කිරීම, සිසු අධ්‍යයන සම්පත් පුළුල් කිරීම හා වාර්ෂික ත්‍යාග ප්‍රදානෝත්සවය උත්කර්ෂවත්ව පැවැත්වීම." data-lang-en="Establishing the Sri Sambodhi Buddhist Library for over 500 students, expanding learning resources, and grandly holding the annual prize giving.">
+              සිසුන් 500 ඉක්මවීම නිමිත්තෙන් ශ්‍රී සම්බෝධි බෞද්ධ පුස්තකාලය ස්ථාපනය කිරීම, සිසු අධ්‍යයන සම්පත් පුළුල් කිරීම හා වාර්ෂික ත්‍යාග ප්‍රදානෝත්සවය උත්කර්ෂවත්ව පැවැත්වීම.
+            </p>
+          </div>
+        </div>
+
+        <!-- Decade 4 -->
+        <div class="relative pl-6 sm:pl-8">
+          <div class="absolute -left-3 top-1.5 w-6 h-6 rounded-full bg-amber-500 border-4 border-white dark:border-stone-900 flex items-center justify-center"></div>
+          <span class="sm:absolute sm:-left-28 sm:top-1 font-mono font-bold text-sm text-red-900 dark:text-amber-400 block sm:inline">2007 - 2017</span>
+          <div class="bg-white dark:bg-stone-900 p-5 rounded-2xl border border-stone-200 dark:border-amber-900/30 shadow-md">
+            <h4 class="text-lg font-bold font-sinhala text-red-950 dark:text-amber-300" data-lang-si="2007: සමස්ත ලංකා විශිෂ්ටතම දහම් පාසල් සම්මානය" data-lang-en="2007: All-Island Best Dhamma School Award">2007: සමස්ත ලංකා විශිෂ්ටතම දහම් පාසල් සම්මානය</h4>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 mt-2 leading-relaxed" data-lang-si="බෞද්ධ කටයුතු දෙපාර්තමේන්තුවේ ඇගයීම් අනුව දිස්ත්‍රික්කයේ විශිෂ්ටතම දහම් පාසල ලෙස සම්මාන ලැබීම. සිසු සංඛ්‍යාව 1,000 ඉක්මවා යාම සහ මාධ්‍ය ඒකකය පිහිටුවීම." data-lang-en="Awarded as the most outstanding Dhamma school in the district by the Department of Buddhist Affairs, student population exceeding 1,000, and forming the Media Unit.">
+              බෞද්ධ කටයුතු දෙපාර්තමේන්තුවේ ඇගයීම් අනුව දිස්ත්‍රික්කයේ විශිෂ්ටතම දහම් පාසල ලෙස සම්මාන ලැබීම. සිසු සංඛ්‍යාව 1,000 ඉක්මවා යාම සහ මාධ්‍ය ඒකකය පිහිටුවීම.
+            </p>
+          </div>
+        </div>
+
+        <!-- Decade 5 -->
+        <div class="relative pl-6 sm:pl-8">
+          <div class="absolute -left-3 top-1.5 w-6 h-6 rounded-full bg-amber-500 ring-4 ring-amber-300 flex items-center justify-center"></div>
+          <span class="sm:absolute sm:-left-28 sm:top-1 font-mono font-bold text-sm text-amber-600 dark:text-amber-300 block sm:inline">2017 - 2027</span>
+          <div class="bg-amber-500/10 dark:bg-amber-950/40 p-5 rounded-2xl border-2 border-amber-500/50 shadow-md">
+            <h4 class="text-lg font-bold font-sinhala text-amber-900 dark:text-amber-300" data-lang-si="2027: පනස් වසරක ස්වර්ණ ජයන්ති මහෝත්සවය" data-lang-en="2027: 50th Golden Jubilee Celebration">2027: පනස් වසරක ස්වර්ණ ජයන්ති මහෝත්සවය</h4>
+            <p class="text-xs sm:text-sm text-stone-700 dark:text-stone-300 mt-2 leading-relaxed" data-lang-si="අඩසියවසක් පුරා අඛණ්ඩව විරාජමාන වෙමින් ස්වර්ණ ජයන්ති උළෙල පැවැත්වීම හා ත්‍රිපිටක ඩිජිටල් පුස්තකාලය ස්ථාපිත කිරීම." data-lang-en="Celebrating the 50th Golden Jubilee after half a century of righteous service and establishing the Tipitaka digital library.">
+              අඩසියවසක් පුරා අඛණ්ඩව විරාජමාන වෙමින් ස්වර්ණ ජයන්ති උළෙල පැවැත්වීම හා ත්‍රිපිටක ඩිජිටල් පුස්තකාලය ස්ථාපිත කිරීම.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <!-- =====================================================================
+       FOOTER (Deep Serene Buddhist Architecture)
+       ===================================================================== -->
+  <!-- =====================================================================
+       FOOTER (Deep Serene Buddhist Architecture)
+       ===================================================================== -->
+  </main>
+
+  <footer class="bg-[#120606] text-stone-300 pt-8 md:pt-16 pb-6 md:pb-8 border-t border-amber-900/40 relative">
+    
+    <!-- Top Buddhist Flag Strip -->
+    <div class="buddhist-flag-bar mb-6 md:mb-12">
+      <div class="b-blue"></div>
+      <div class="b-yellow"></div>
+      <div class="b-red"></div>
+      <div class="b-white"></div>
+      <div class="b-orange"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10 pb-6 md:pb-12 border-b border-stone-800">
+        
+        <!-- Col 1: Identity & Motto -->
+        <div class="col-span-2 lg:col-span-1 space-y-3 sm:space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="assets/images/sambodhi-logo.jpg" alt="Logo" class="w-12 h-12 rounded-full border border-amber-500/50" loading="lazy" decoding="async">
+            <div>
+              <span class="block text-base font-bold font-sinhala text-amber-400" data-lang-si="ශ්‍රී සම්බෝධි දහම් පාසල" data-lang-en="Sri Sambodhi Dhamma School">ශ්‍රී සම්බෝධි දහම් පාසල</span>
+              <span class="text-[11px] text-stone-400 font-semibold tracking-wider">SRI SAMBODHI DAHAM PASALA</span>
+            </div>
+          </div>
+          <p class="text-xs text-stone-400 leading-relaxed" data-lang-si="1977 සිට 2027 දක්වා පනස් වසරක අභිමානය පෙරදැරිව, බුදුදහමේ පරම පවිත්‍ර ආලෝකයෙන් ශ්‍රී ලාංකේය දරු පරපුර නැණවත් ගුණවත් කරවන උත්තරීතර සදහම් තක්සලාව." data-lang-en="Entering half a century of pride from 1977 to 2027, the supreme Buddhist seat of learning illuminating the children of Sri Lanka with the purest light of the Dhamma.">
+            1977 සිට 2027 දක්වා පනස් වසරක අභිමානය පෙරදැරිව, බුදුදහමේ පරම පවිත්‍ර ආලෝකයෙන් ශ්‍රී ලාංකේය දරු පරපුර නැණවත් ගුණවත් කරවන උත්තරීතර සදහම් තක්සලාව.
+          </p>
+          <div class="pt-1">
+            <span class="text-xs text-amber-300 font-serif italic">“සබ්බ දානං ධම්ම දානං ජිනාති”</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="col-span-1">
+          <h4 class="text-sm font-bold text-amber-400 uppercase tracking-wider mb-2.5 md:mb-4 border-b border-amber-900/40 pb-1.5 md:pb-2" data-lang-si="ක්ෂණික පිවිසුම්" data-lang-en="Quick Links">
+            ක්ෂණික පිවිසුම්
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="/about" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="අප ගැන හා ඉතිහාසය" data-lang-en="About Us & History">අප ගැන හා ඉතිහාසය</span></a></li>
+            <li><a href="/academics" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="අධ්‍යයන අංශ හා කාලසටහන" data-lang-en="Academics & Timetable">අධ්‍යයන අංශ හා කාලසටහන</span></a></li>
+            <li><a href="/golden-jubilee" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="50 වසරක ස්වර්ණ ජයන්ති මහෝත්සවය" data-lang-en="50th Golden Jubilee Celebration">50 වසරක ස්වර්ණ ජයන්ති මහෝත්සවය</span></a></li>
+            <li><a href="/activities" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="ශිෂ්‍ය සමිති හා සමාජ සත්කාර" data-lang-en="Societies & Activities">ශිෂ්‍ය සමිති හා සමාජ සත්කාර</span></a></li>
+            <li><a href="/gallery" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="ඡායාරූප හා මාධ්‍ය එකතුව" data-lang-en="Photo Gallery & Media">ඡායාරූප හා මාධ්‍ය එකතුව</span></a></li>
+            <li><a href="/downloads" class="hover:text-amber-300 transition-colors flex items-center gap-2"><i class="fa-solid fa-angle-right text-[10px] text-amber-500"></i> <span data-lang-si="පසුගිය විභාග ප්‍රශ්න පත්‍ර හා ගාථා" data-lang-en="Past Examination Papers & Stanzas">පසුගිය විභාග ප්‍රශ්න පත්‍ර හා ගාථා</span></a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Daham Pasala Details -->
+        <div class="hidden lg:block lg:col-span-1">
+          <h4 class="text-sm font-bold text-amber-400 uppercase tracking-wider mb-2.5 md:mb-4 border-b border-amber-900/40 pb-1.5 md:pb-2" data-lang-si="දහම් පාසල් වේලාවන්" data-lang-en="Dhamma School Hours">
+            දහම් පාසල් වේලාවන්
+          </h4>
+          <ul class="space-y-2.5 text-xs text-stone-400">
+            <li class="flex items-start gap-2">
+              <i class="fa-regular fa-clock text-amber-400 mt-0.5"></i>
+              <span data-lang-si="සෑම ඉරිදා දිනකම පෙ.ව. 07:30 සිට ප.ව. 12:30 දක්වා" data-lang-en="Every Sunday from 07:30 AM to 12:30 PM">සෑම ඉරිදා දිනකම පෙ.ව. 07:30 සිට ප.ව. 12:30 දක්වා</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-hands-praying text-amber-400 mt-0.5"></i>
+              <span data-lang-si="පෙ.ව. 07:30 - බුද්ධ පූජාව හා ආගමික වතාවත්" data-lang-en="07:30 AM - Buddha Puja & Religious Observances">පෙ.ව. 07:30 - බුද්ධ පූජාව හා ආගමික වතාවත්</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-book text-amber-400 mt-0.5"></i>
+              <span data-lang-si="පෙ.ව. 08:30 - පන්ති කාමර අධ්‍යයන කටයුතු" data-lang-en="08:30 AM - Classroom Academic Instruction">පෙ.ව. 08:30 - පන්ති කාමර අධ්‍යයන කටයුතු</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-sun text-amber-400 mt-0.5"></i>
+              <span data-lang-si="පෙ.ව. 11:30 - ධර්ම සාකච්ඡා හා විශේෂ වැඩසටහන්" data-lang-en="11:30 AM - Dhamma Discussions & Special Programs">පෙ.ව. 11:30 - ධර්ම සාකච්ඡා හා විශේෂ වැඩසටහන්</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Office -->
+        <div class="col-span-1">
+          <h4 class="text-sm font-bold text-amber-400 uppercase tracking-wider mb-2.5 md:mb-4 border-b border-amber-900/40 pb-1.5 md:pb-2" data-lang-si="සම්බන්ධීකරණ කාර්යාලය" data-lang-en="Coordinating Office">
+            සම්බන්ධීකරණ කාර්යාලය
+          </h4>
+          <ul class="space-y-2.5 text-xs text-stone-400">
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-amber-400 mt-0.5"></i>
+              <span data-lang-si="ශ්‍රී සම්බෝධි දහම් පාසල, පලාතොට, කළුතර" data-lang-en="Sri Sambodhi Dhamma School, Palatota, Kalutara">ශ්‍රී සම්බෝධි දහම් පාසල, පලාතොට, කළුතර</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-phone text-amber-400"></i>
+              <span>034 222 3823</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-envelope text-amber-400"></i>
+              <span class="break-all text-[11px] sm:text-xs">info@srisambodhidahampasala.lk</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-globe text-amber-400"></i>
+              <span class="break-all text-[11px] sm:text-xs">www.srisambodhidahampasala.lk</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-4 md:pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+        <div class="flex items-center gap-2 sm:gap-3 flex-wrap justify-center sm:justify-start">
+          <span data-lang-si="© 1977 - 2027 ශ්‍රී සම්බෝධි දහම් පාසල. සියලුම හිමිකම් ඇවිරිණි." data-lang-en="© 1977 - 2027 Sri Sambodhi Dhamma School. All Rights Reserved.">© 1977 - 2027 ශ්‍රී සම්බෝධි දහම් පාසල. සියලුම හිමිකම් ඇවිරිණි.</span>
+          <span data-lang-si='තාක්ෂණික නිර්මාණය <strong class="text-amber-400 font-semibold">SKYRO Digital</strong>' data-lang-en='Carefully engineered by <strong class="text-amber-400 font-semibold">SKYRO Digital</strong>'>තාක්ෂණික නිර්මාණය <strong class="text-amber-400 font-semibold">SKYRO Digital</strong></span>
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="text-amber-500 font-bold" data-lang-si="1977 - 2027 පනස් වසරක අභිමානය" data-lang-en="1977 - 2027 Fifty Years of Pride">1977 - 2027 පනස් වසරක අභිමානය</span>
+          <span>•</span>
+          <a href="assets/docs/privacy-policy.pdf" target="_blank" rel="noopener noreferrer" class="hover:text-stone-300 transition-colors" data-lang-si="රහස්‍යතා ප්‍රතිපත්තිය" data-lang-en="Privacy Policy">රහස්‍යතා ප්‍රතිපත්තිය</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 z-40 bg-red-800 dark:bg-amber-500 text-white dark:text-stone-950 w-11 h-11 rounded-full shadow-2xl flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:scale-110 border border-white/20" title="ඉහළට යන්න">
+    <i class="fa-solid fa-arrow-up text-sm"></i>
+  </button>
+
+  <!-- Main JavaScript Engine -->
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

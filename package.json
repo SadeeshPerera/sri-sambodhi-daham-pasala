@@ -1,0 +1,18 @@
+{
+  "name": "sri-sambodhi-daham-pasala-website",
+  "version": "1.0.0",
+  "description": "Official 50th Golden Jubilee (1977-2027) Animated Website for Sri Sambodhi Daham Pasala (ශ්‍රී සම්බෝධි දහම් පාසල)",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "sri-sambodhi-daham-pasala",
+    "dhamma-school",
+    "buddhist-education",
+    "golden-jubilee-1977-2027",
+    "sri-lanka"
+  ],
+  "author": "Sri Sambodhi Daham Pasala IT & Media Unit",
+  "license": "MIT"
+}
