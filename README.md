@@ -1,7 +1,7 @@
 # ශ්‍රී සම්බෝධි දහම් පාසල (Sri Sambodhi Daham Pasala)
 ### Official 50th Golden Jubilee (1977 - 2027) Animated Website Portal
 
----
+--
 
 ## 🌸 About the Project / ව්‍යාපෘතිය පිළිබඳ හැඳින්වීම
 This is a state-of-the-art, fully responsive, and highly animated official website built for **Sri Sambodhi Daham Pasala (ශ්‍රී සම්බෝධි දහම් පාසල)** celebrating its momentous **50th Golden Jubilee Anniversary (1977 - 2027)** under the motto **“දැහැමින් ඉදිරියට” (Forward with Righteousness)**.
